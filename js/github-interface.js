@@ -1,6 +1,6 @@
 var Github = require ("./../js/github.js").Github;
 
-$(function(){
+$(document).ready(function() {
 
 var userObject = new Github ();
   $("#userFind").click(function(event){
