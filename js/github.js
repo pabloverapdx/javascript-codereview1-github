@@ -7,6 +7,6 @@ exports.Github.prototype.getRepos = function(userName){
   $.get('https://api.github.com/users/' + userName + '?access_token=' + apiKey).then(function(response){
 
 
-    $("#result").text("You searched for " + userName);
+    $("#result").append("<p>" + "<b>" + userName + "</b><br>" + "<img class='profilePhoto' src='" + response.avatar_url + "'>'");
   });
 };
