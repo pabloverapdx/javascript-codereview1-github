@@ -18,10 +18,12 @@ header {
   display: flex;
   align-items: center;
   h1 {
-    width: 230px;
+    font-size: 40px;
+    text-align: center;
+    width: 60%;
     margin: 0 auto;
     padding: 0;
-
+    text-transform: uppercase;
   }
 }
 
@@ -30,7 +32,7 @@ form {
     width: 600px;
     margin: 0 auto;
     input {
-      width: 500px;
+      width: 85%;
       height: 50px;
       }
    }
@@ -45,4 +47,15 @@ form {
 .profilePhoto {
   width: 400px;
   margin: 0 auto;
+}
+
+#userSearch {
+  font-size: 45px;
+}
+
+button {
+  float: right;
+  height: 50px;
+  width: 80px;
+  border-radius: 60px;
 }
