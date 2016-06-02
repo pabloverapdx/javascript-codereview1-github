@@ -21,11 +21,11 @@ Clone this repo on to your desktop, make sure that you have node.js installed on
 npm install
 bower install
 ```
-* Once they are finished installing successfully, enter the commands:
+* Once they are finished installing successfully:
 ```shell
-make a .env file on top of your project directory
-Place your github token/key in .env file
-Example: exports.apiKey = "key number in here";
+- make a .env file on top of your project directory
+- Place your github token/key in .env file
+Example: exports.apiKey = "YOURAPIKEYHERE";
 gulp build
 gulp serve
 ```
