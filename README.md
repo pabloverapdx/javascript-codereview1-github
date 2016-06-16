@@ -4,7 +4,7 @@
 
 ### Description
 
-This week's code review is a website where a user can go and enter a github user name. Upon submitting the form, the user will be able to see some basic profile information of the github account and information on their repositories.
+This week's code review is a website where a user can go and enter a github user name. Upon submitting the form, the user will be able to see the profile photo and a list of repositories of that user.
 
 ![screenshot of github user search website](img/screenshot.png)
 

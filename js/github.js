@@ -8,14 +8,14 @@ exports.Github = function(){
 exports.Github.prototype.getRepos = function(userName){
   $.get('https://api.github.com/users/' + userName + '?access_token=' + apiKey).then(function(response){
 
-// Show results. Prepend user photo //
-    $("#result").html("<b>" + userName + "</b><br>" + "<img class='profilePhoto' src=" + response.avatar_url + ">");
+// Shows user avatar //
+    $("#result").html("<b>" + userName + "</b> <br>" + "<img class='profilePhoto' src=" + response.avatar_url + ">");
   });
 
-
+// Shows repositories //
   $.get('https://api.github.com/users/' + userName + '/repos?access_token=' + apiKey).then(function(response){
     response.forEach(function(repo) {
-      $(".repositories").append(repo.name);
+      $(".repositories").prepend(repo.name + "<br>" + repo.description);
     });
 
   });
