@@ -13,8 +13,7 @@ html, body {
 header {
   background-color: #1FDA9A;
   width: 100%;
-  margin: 0 auto;
-  height: 200px;
+  height: 150px;
   display: flex;
   align-items: center;
   h1 {
@@ -28,7 +27,7 @@ header {
 }
 
 form {
-    padding-top: 50px;
+    padding-top: 30px;
     width: 600px;
     margin: 0 auto;
     input {
