@@ -16,6 +16,11 @@ This week's code review is a website where a user can go and enter a github user
 
 Clone this repo on to your desktop, make sure that you have node.js installed on your computer and then:
 * navigate into the project folder.
+```shell
+install bower
+install gulp
+install sass
+```
 * In your terminal, run the commands:
 ```shell
 npm install
